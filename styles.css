@@ -365,6 +365,10 @@ h1 {
   color: var(--insta);
 }
 
+.channel strong {
+  color: #229ed9;
+}
+
 @media (max-width: 860px) {
   .hero,
   .cards,
