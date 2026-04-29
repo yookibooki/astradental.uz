@@ -314,6 +314,36 @@ h1 {
   margin-top: 18px;
 }
 
+.map-section {
+  margin-top: 18px;
+  padding: 18px;
+}
+
+.map-header {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.map-lead {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.map-frame {
+  overflow: hidden;
+  border-radius: 22px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.map-frame iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
 .contact-card {
   padding: 18px 20px;
   border-radius: 22px;
@@ -349,6 +379,10 @@ h1 {
 
   .hero {
     gap: 22px;
+  }
+
+  .map-section {
+    padding: 16px;
   }
 }
 
