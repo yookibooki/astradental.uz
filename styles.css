@@ -63,12 +63,13 @@ a {
 
 .brand-mark {
   display: block;
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
-  border-radius: 18px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 22px;
   background: rgba(255, 255, 255, 0.62);
-  padding: 6px;
+  padding: 0;
   box-shadow: 0 10px 24px rgba(31, 25, 20, 0.08);
 }
 
